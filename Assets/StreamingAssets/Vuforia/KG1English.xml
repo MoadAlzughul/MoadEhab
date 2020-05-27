@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="KG1EN-Z" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-Y" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-X" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-W" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-V" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-U" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-T" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-S" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-R" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-Q" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-P" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-O" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-N" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-M" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-L" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-K" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-J" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-I" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-H" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-G" size="20.000000 28.286982" />
+    <ImageTarget name="KG1EN-F" size="20.000000 28.278919" />
+    <ImageTarget name="KG1EN-E" size="20.000000 28.278919" />
+    <ImageTarget name="KG1EN-D" size="20.000000 28.278919" />
+    <ImageTarget name="KG1EN-C" size="20.000000 28.278919" />
+    <ImageTarget name="KG1EN-B" size="20.000000 28.278919" />
+    <ImageTarget name="KG1EN-A" size="20.000000 28.278919" />
+  </Tracking>
+</QCARConfig>
