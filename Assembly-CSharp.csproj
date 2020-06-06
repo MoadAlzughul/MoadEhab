@@ -86,6 +86,7 @@
      <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
+     <None Include="Assets\TestGithub.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/moadb/Documents/GitHub/MoadEhab/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
