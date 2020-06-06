@@ -8,6 +8,9 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using System.Collections;
+using System.Collections.Generic;
+
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -17,7 +20,37 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+
+//------------Begin Sound----------
+        public AudioSource soundTarget;
+        public AudioClip clipTarget; 
+        private AudioSource[] allAudioSources;
+	
+	//function to stop all sounds
+        void StopAllAudio()
+        {
+            allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            foreach (AudioSource audioS in allAudioSources)
+            {
+                audioS.Stop();
+            }
+        }
+
+        //function to play sound
+        void playSound(string ss)
+        {
+            clipTarget = (AudioClip)Resources.Load(ss);
+            soundTarget.clip = clipTarget;
+            soundTarget.loop = true;
+            soundTarget.playOnAwake = false;
+            soundTarget.Play();
+        }
+
+//-----------End Sound------------
+
+
     #region PROTECTED_MEMBER_VARIABLES
+public AudioSource _audio;
 
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
@@ -32,6 +65,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+      
+         soundTarget = (AudioSource)gameObject.AddComponent<AudioSource>();    
     }
 
     protected virtual void OnDestroy()
@@ -102,6 +137,29 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Enable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = true;
+
+
+        _audio=GetComponent<AudioSource>();
+        Debug.Log("---------------Check Audio Name Start--------------------");
+        _audio.Play();
+        Debug.Log("---------------Check Audio Name End--------------------");
+
+
+            //Play Sound, IF detect an target
+                //playSound("sounds/"+mTrackableBehaviour.TrackableName);
+                // Debug.Log(mTrackableBehaviour.TrackableName+" Found");
+
+            // if (mTrackableBehaviour.TrackableName == "pkgAR1")
+            // {
+            //     //Debug.Log("pkgAR1 Found");
+            //     //playSound("sounds/pkgAR1");
+            // }
+
+            // if (mTrackableBehaviour.TrackableName == "unitychan")
+            // {
+            //    // playSound("sounds/Anime-Eng");
+            // }
+
         }
     }
 
@@ -125,6 +183,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Disable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = false;
+
+            StopAllAudio();
         }
     }
 

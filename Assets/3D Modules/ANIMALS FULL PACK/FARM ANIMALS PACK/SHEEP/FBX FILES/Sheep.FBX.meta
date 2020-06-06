@@ -95,12 +95,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Sheep
-    second: {fileID: 2100000, guid: 4081f7dca9c20ea4899d42261cd17546, type: 2}
+    second: {fileID: 2100000, guid: 01992b47ab27f2f4c952d4916da48300, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_SheepFur
-    second: {fileID: 2100000, guid: 1c0055de3546223428a7731577702b6f, type: 2}
+    second: {fileID: 2100000, guid: a21a3e716b021394abf8ee2fe1a170ab, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
