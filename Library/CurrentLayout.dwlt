@@ -328,24 +328,24 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 721c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: defbffff46250000
+      scrollPos: {x: 0, y: 80}
+      m_SelectedIDs: f4230000
+      m_LastClickedID: 9204
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: PKGAR4
-        m_OriginalName: PKGAR4
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 9542
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -386,9 +386,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 3.6773074, z: 0}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 3.6773074, z: 0}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -416,19 +416,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11718479, y: -0.5016163, z: 0.06879859, w: -0.85435176}
+    m_Target: {x: 0.5913849, y: -0.0078105084, z: 0.005733217, w: 0.8063313}
     speed: 2
-    m_Value: {x: -0.117184706, y: -0.50161594, z: 0.068798535, w: -0.85435116}
+    m_Value: {x: 0.5913849, y: -0.0078105084, z: 0.005733217, w: 0.8063313}
   m_Size:
-    m_Target: 22
+    m_Target: 57.16133
     speed: 2
-    m_Value: 22
+    m_Value: 57.16133
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.029556077, y: -0.3294604, z: 0.010315117, w: -0.94365036}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -655,19 +655,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3D Modules/ANIMALS FULL PACK/FOREST ANIMALS PACK/FOX/FBX FILES
+    - Assets/Resources/Sounds/Arabic/KG1
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/3D Modules/ANIMALS FULL PACK/FOREST ANIMALS PACK/FOX/FBX FILES
+  - Assets/Resources/Sounds/Arabic/KG1
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\moadb\Documents\GitHub\MoadEhab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 579}
-    m_SelectedIDs: 02120000
-    m_LastClickedID: 4610
+    scrollPos: {x: 0, y: 1331}
+    m_SelectedIDs: 060d0000
+    m_LastClickedID: 3334
     m_ExpandedIDs: 00000000fa0b0000260c0000200d0000740e0000800e0000ba0e0000200f0000dc0f000092100000021200008a120000a2120000d6120000e2130000021400007014000074140000161500003616000082160000941600009e1800004c190000381a0000c61a00001e1b0000921b0000f61b0000fc1b0000001d0000341d0000521d00005a1e0000e61e0000fc1e00002454000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -724,7 +724,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000e2bd00008a7c0000f4bd0000de0d0000080c0000c00d00007c0e0000fa13000090140000ac1d0000ca1600008a0f00000c1f0000001c0000ba140000981000002c0f0000080d00009e0c000022160000aa0f0000
+    m_ExpandedInstanceIDs: c6230000e2bd00008a7c0000f4bd0000de0d0000080c0000c00d00007c0e0000fa13000090140000ac1d0000ca1600008a0f00000c1f0000001c0000ba1400002c0f0000080d00009e0c000022160000aa0f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
