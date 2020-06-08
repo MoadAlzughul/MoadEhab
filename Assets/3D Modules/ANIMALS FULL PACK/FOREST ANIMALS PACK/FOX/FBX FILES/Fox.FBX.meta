@@ -101,12 +101,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Fox
-    second: {fileID: 2100000, guid: eb1804569c8c0dd49a3295ad819dd6fa, type: 2}
+    second: {fileID: 2100000, guid: d86a47d1707a8b942a35ea54ee7a09ea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_FoxFur
-    second: {fileID: 2100000, guid: e0403527884499244935336565d77fe2, type: 2}
+    second: {fileID: 2100000, guid: 3846c788949eca945a63ff532ef7fe4b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
